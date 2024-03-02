@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+
 import PackContainer from './PackContainer';
 import { DetailsHeader } from '../details/header';
 import { createParam } from 'solito';
@@ -82,7 +83,6 @@ export function PackDetails() {
                   keyExtractor={([key, val]) => val}
                   renderItem={({item}) => {
                     {
-                      console.log(item[1], 'item');
                       switch (item[1]) {
                         case SECTION.TABLE:
                           return <TableContainer currentPack={currentPack} copy={canCopy} />;
