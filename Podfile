@@ -39,7 +39,7 @@ end
 
 # @generated begin @rnmapbox/maps-rnmapboxmapsimpl - expo prebuild (DO NOT MODIFY) sync-a3ff464a3a14b329676ad3480093081bb97a1930
 $RNMapboxMapsImpl = 'mapbox'
-$RNMapboxMapsDownloadToken = 'MAPBOX_DOWNLOADS_TOKEN_FROM_ENV'
+$RNMapboxMapsDownloadToken = 'pk.eyJ1IjoiYW5kcmV3Ymllcm1hbiIsImEiOiJjbDhwYTVtc3kwMGprM3Buejg3d2doa2pvIn0.F_D3I0KRlQkQK70DkK7MlQ'
 # @generated end @rnmapbox/maps-rnmapboxmapsimpl
 target 'packrat' do
   use_expo_modules!
